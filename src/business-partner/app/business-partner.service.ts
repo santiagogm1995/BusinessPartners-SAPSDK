@@ -1,5 +1,4 @@
 import { Injectable } from '@nestjs/common';
-import { GetRequestBuilderBase } from '@sap-cloud-sdk/core/dist/odata-common/request-builder/get-request-builder-base';
 import { BusinessPartner } from '@sap/cloud-sdk-vdm-business-partner-service';
 
 @Injectable()
