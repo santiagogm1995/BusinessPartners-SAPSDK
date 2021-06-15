@@ -17,7 +17,7 @@ export class BusinessPartnerService {
       });
   }
 
-  getOneBusinessPartern(id: string): Promise<BusinessPartner> {
+  getOneBusinessPartern(id: string): Promise<BusinessPartner> { //test
     return BusinessPartner.requestBuilder()
       .getByKey(id)
       .addCustomHeaders({
